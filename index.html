@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Text-to-Speech App</title>
+   
+</head>
+<body>
+    <div class="container">
+        <h2>Text-to-Speech Converter 🔊</h2>
+        <textarea id="textInput" placeholder="Enter text here..."></textarea>
+        <select id="voiceSelect"></select>
+        <label>Speed:</label>
+        <input type="range" id="speedControl" min="0.5" max="2" step="0.1" value="1">
+        <button id="speakBtn" style="border-radius: 20px;" onclick="speakText()">🔊 Speak</button>
+        <button id="pauseBtn" style="border-radius: 20px;">🔊 Pause</button>
+        <button id="resumeBtn" style="border-radius: 20px;">🔊 Resume</button>
+    
+        <p id="highlightedText"></p>
+        <script src="script.js"></script>
+    </div>
+
+</body>
+</html>
