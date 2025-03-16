@@ -33,7 +33,7 @@ textarea { width: 80%;
 button { padding: 10px 20px;
      font-size: 18px; background: #007bff;
       color: white; border: none; cursor: pointer;
-      row-gap: 50px;
+      
      }
 
 button:hover { background: #0056b3; }
